@@ -58,4 +58,9 @@ function processLogs(index = 0) {
     }
 }
 
+// WE CAN ADD THIS IG :
+// setInterval(() => {
+   //  console.log("I AM BARAN AND ME IS TOMOO WE ARE BIG NIGGERS FOREVER (:");
+// }, 2000);
+
 processLogs();
