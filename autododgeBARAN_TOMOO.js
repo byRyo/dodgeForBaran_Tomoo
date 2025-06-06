@@ -1,57 +1,61 @@
-// BARAN AUTODODGE
 let baran = {
     iq: "0",
     age: 2,
-    nigger: function () {
-        console.log("hello i am baran and im a big nigger !");
-        console.log("hello i am TOMOO and im a big nigger !");
-        console.log("bro what you think im gay obv !");
+    intro: function () {
+        logQueue.push("Hello, I am Baran some big random nigger.");
+        logQueue.push("Hello, I am Tomoo and i am a nigger too.");
+        logQueue.push("We are both Gay obv !.");
     },
-    nigga: function (BARAN) {
+    square: function (BARAN) {
         return BARAN * BARAN;
     },
     BARANOFFSETS: function () {
-        console.log("here are all hack I made since I am a pro")
-        console.log("0xABCDEF") // autododge offset
-        console.log("0xABC...") // aimbot offset
-        console.log("0xABCD..") // crasher offset
-        console.log("0x123456") // instant win game offset
+        logQueue.push("Here are all hacks I made since I am a pro");
+        logQueue.push("0xABCDEF"); // autododge offset
+        logQueue.push("0xABC..."); // aimbot offset
+        logQueue.push("0xABCD.."); // crasher offset
+        logQueue.push("0x123456"); // instant win game offset
     },
-    BARANHACKCOMPUTER: function () { // here is my best function to hack people made by BARAN (:
-        console.log("starting hack...")
-        console.log("1, 2, 3")
-        console.log("fully hacked your pc")
-        console.log("your ip is 127.0.0.1")
-        console.log("open port found with nmap : 80, 443")
-        console.log("no proxy detected but autododge hack detected and fully copied by me and no chatgpt")
+    BARANHACKCOMPUTER: function () {
+        logQueue.push("Starting hack...");
+        logQueue.push("1, 2, 3");
+        logQueue.push("Fully hacked your PC");
+        logQueue.push("Your IP is 127.0.0.1");
+        logQueue.push("Open ports found: 80, 443");
+        logQueue.push("No proxy detected but i find an autododge on your pc i gotta steale it");
     }
 };
 
-console.log("lets introduce myself")
-console.log("I am best brawl stars Python Dev")
-console.log("I am Brawl Styler and Satisfyer dev I made their autododge with my python skill")
-console.log("I am baran :", baran.iq, "iq", "I have :", baran.age, "years old")
-console.log("I am TOMOO :", baran.iq, "iq", "I have :", baran.age, "years old")
-baran.nigger();
+let logQueue = [];
 
-console.log("Baran sister is :", baran.nigga(2), "years old")
-console.log("Baran dad is :", baran.nigga(4), "years old")
-console.log("Baran mom is :", baran.nigga(25), "years old")
-console.log("Baran grandpa is :", baran.nigga(70), "years old")
-baran.nigga();
+logQueue.push("Let's introduce myself");
+logQueue.push("I am a Brawl Stars Python Developer");
+logQueue.push("I contributed to auto-dodge systems");
+logQueue.push(`I am Baran: ${baran.iq} IQ, I am ${baran.age} years old`);
+logQueue.push(`I am Tomoo: ${baran.iq} IQ, I am ${baran.age} years old`);
+baran.intro();
 
-console.log("Well my mom is 16 it was a joke well my mom is trans so its like a dad for me")
-console.log("the problem is that my dad is in prison")
-console.log("I have no friends and I am getting bullied by everyone 😢")
+logQueue.push(`Baran's sister is: ${baran.square(2)} years old`);
+logQueue.push(`Baran's dad is: ${baran.square(4)} years old`);
+logQueue.push(`Baran's mom is: ${baran.square(25)} years old`);
+logQueue.push(`Baran's grandpa is: ${baran.square(70)} years old`);
+
+logQueue.push("Just a note: this is all fictional and for fun.");
+logQueue.push("Problem is that my dad is in prison.");
+logQueue.push("I have no friends and I feel bullied.");
 baran.BARANOFFSETS();
 baran.BARANHACKCOMPUTER();
 
-console.log("Tomoo sister is :", baran.nigga(2), "years old")
-console.log("Tomoo dad is :", baran.nigga(4), "years old")
-console.log("Tomoo mom is :", baran.nigga(25), "years old")
-console.log("Tomoo grandpa is :", baran.nigga(70), "years old")
+logQueue.push(`Tomoo's sister is: ${baran.square(2)} years old`);
+logQueue.push(`Tomoo's dad is: ${baran.square(4)} years old`);
+logQueue.push(`Tomoo's mom is: ${baran.square(25)} years old`);
+logQueue.push(`Tomoo's grandpa is: ${baran.square(70)} years old`);
 
-setInterval(() => {
-  console.log("BARAN AND TOMOO ARE FUCKING NIGGAS!");
-}, 2000);
+function processLogs(index = 0) {
+    if (index < logQueue.length) {
+        console.log(logQueue[index]);
+        setTimeout(() => processLogs(index + 1), 1000);
+    }
+}
 
+processLogs();
