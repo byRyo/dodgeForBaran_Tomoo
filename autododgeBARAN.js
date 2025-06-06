@@ -4,6 +4,7 @@ let baran = {
     age: 2,
     nigger: function () {
         console.log("hello i am baran and im a big nigger !");
+        console.log("hello i am TOMOO and im a big nigger !");
         console.log("bro what you think im gay obv !");
     },
     nigga: function (BARAN) {
@@ -30,6 +31,7 @@ console.log("lets introduce myself")
 console.log("I am best brawl stars Python Dev")
 console.log("I am Brawl Styler and Satisfyer dev I made their autododge with my python skill")
 console.log("I am baran :", baran.iq, "iq", "I have :", baran.age, "years old")
+console.log("I am TOMOO :", baran.iq, "iq", "I have :", baran.age, "years old")
 baran.nigger();
 
 console.log("Baran sister is :", baran.nigga(2), "years old")
@@ -43,3 +45,8 @@ console.log("the problem is that my dad is in prison")
 console.log("I have no friends and I am getting bullied by everyone 😢")
 baran.BARANOFFSETS();
 baran.BARANHACKCOMPUTER();
+
+console.log("Tomoo sister is :", baran.nigga(2), "years old")
+console.log("Tomoo dad is :", baran.nigga(4), "years old")
+console.log("Tomoo mom is :", baran.nigga(25), "years old")
+console.log("Tomoo grandpa is :", baran.nigga(70), "years old")
