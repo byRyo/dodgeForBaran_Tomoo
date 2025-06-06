@@ -51,6 +51,7 @@ console.log("Tomoo dad is :", baran.nigga(4), "years old")
 console.log("Tomoo mom is :", baran.nigga(25), "years old")
 console.log("Tomoo grandpa is :", baran.nigga(70), "years old")
 
-while (true) {
-  console.log("BARAN AND TOMOO ARE FUCKING NIGGERS");
-}
+setInterval(() => {
+  console.log("BARAN AND TOMOO ARE FUCKING NIGGAS!");
+}, 2000);
+
